@@ -42,3 +42,23 @@ button{
     font-weight: bolder;
     cursor: pointer;
 }
+
+button:hover{
+    background-color: hsl(0, 0%, 35%);
+}
+
+button:active{
+    background-color: hsl(0, 0%, 50%);
+}
+
+.operator-key{
+    background-color: hsl(180, 25%, 43%);
+}
+
+.operator-key:hover{
+    background-color: hsl(180, 25%, 53%);
+}
+
+.operator-key:active{
+    background-color: hsl(180, 25%, 63%);
+}
